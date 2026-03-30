@@ -36,3 +36,6 @@ Cape Peninsula University of Technology:
 - burgerr@cput.ac.za 
 - cicerot@cput.ac.za 
 - Zietsmane@cput.ac.za
+
+## MOck Interview Video
+[Click here to watch my interview] https://drive.google.com/file/d/1HC2a3qn6kjZFEY7AM0o7QrtoyyUXw2vf/view?usp=drive_link
