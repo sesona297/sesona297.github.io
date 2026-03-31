@@ -31,6 +31,21 @@ Cape Town, South Africa
 - Teamwork 
 - Problem Solving
 
+## Academic Projects
+
+### StudyGroup Finder
+- Worked in a team to build an application that helps students find study groups  
+- Designed and implemented a Goal Tracker to set, track, and manage goals  
+
+### UX/UI Wireframes
+- Designed low-fidelity wireframes for a mobile application (Multimedia project)  
+
+### GUI Development
+- Designed and updated graphical user interfaces using Java Swing components  
+
+### Database Handling
+- Implemented a relational database using MySQL  
+
 ## REFERENCES 
 Cape Peninsula University of Technology: 
 - burgerr@cput.ac.za 
@@ -38,4 +53,5 @@ Cape Peninsula University of Technology:
 - Zietsmane@cput.ac.za
 
 ## Mock Interview Video
-[Click here to watch my interview] https://drive.google.com/file/d/1HC2a3qn6kjZFEY7AM0o7QrtoyyUXw2vf/view?usp=drive_link
+
+
