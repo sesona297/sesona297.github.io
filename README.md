@@ -53,9 +53,5 @@ Cape Peninsula University of Technology:
 - Zietsmane@cput.ac.za
 
 ## Mock Interview Video
-<video width="600" controls>
-  <source src="mock interview.mp4 
-" type="video/mp4">
-</video>
-
+<video src="./mock interview.mp4" controls width="600"></video>
 
