@@ -143,16 +143,19 @@ By signing below, each member agrees to uphold this charter.
  
 ## Screenshots
  
-<p>
-  <img src="images/image1.png" alt="SPS Coolers screenshot 1" width="180" />
-  <img src="images/image2.png" alt="SPS Coolers screenshot 2" width="180" />
-  <img src="images/image3.png" alt="SPS Coolers screenshot 3" width="180" />
-  <img src="images/image4.png" alt="SPS Coolers screenshot 4" width="180" />
-</p>
-<p>
-  <img src="images/image5.png" alt="SPS Coolers screenshot 5" width="240" />
-  <img src="images/image6.png" alt="SPS Coolers screenshot 6" width="240" />
-</p>
+
+<img width="424" height="641" alt="Screenshot 2026-10-27 024942" src="https://github.com/user-attachments/assets/c117d5eb-173b-43eb-be84-86b29148f8ea" />
+<img width="432" height="641" alt="Screenshot 2026-10-27 025025" src="https://github.com/user-attachments/assets/954e08f5-bf46-4eb3-a834-253d1d3ae910" />
+<img width="426" height="645" alt="Screenshot 2026-10-27 025046" src="https://github.com/user-attachments/assets/7f23058a-9e17-4aa8-b92f-787052ecea15" />
+<img width="432" height="638" alt="Screenshot 2026-10-27 025107" src="https://github.com/user-attachments/assets/5996e3fe-8df8-4410-951d-a97040752dcf" />
+<img width="435" height="594" alt="Screenshot 2026-10-27 034427" src="https://github.com/user-attachments/assets/8cfc723c-a922-4e57-b642-26e02c236f1a" />
+<img width="426" height="641" alt="Screenshot 2026-10-27 034901" src="https://github.com/user-attachments/assets/c8da0203-7145-414d-aef0-50b7f66c7f63" />
+
+
+
+
+
+
 ## Reflection
  
 **Situation:** SPS Coolers is a smart cold storage application designed to help street vendors manage their storage bookings and access the facility.
