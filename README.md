@@ -121,8 +121,8 @@ The charter will be reviewed at every sprint retrospective. Changes are made onl
 By signing below, each member agrees to uphold this charter.
  
 - Sesona Ntshatsha: ____S.Ntshatsha______ Date: _26 October 2026_________
-- Alakhe Sbusiso Mxakato: __________ Date: __________
-- Noxolo Portia Ngubo: __________ Date: __________
+- Alakhe Sbusiso Mxakato: _____A.S.Mxakato_____ Date: ____26 October 2026______
+- Noxolo Portia Ngubo: ____N.P.Ngubo______ Date: __26 October 2026________
 
  # User Stories and Tasks: SPS Coolers
  
