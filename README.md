@@ -123,4 +123,43 @@ By signing below, each member agrees to uphold this charter.
 - Sesona Ntshatsha: ____S.Ntshatsha______ Date: _26 October 2026_________
 - Alakhe Sbusiso Mxakato: __________ Date: __________
 - Noxolo Portia Ngubo: __________ Date: __________
+
+ # User Stories and Tasks: SPS Coolers
+ 
+**Format:** As a [user], I want [feature], so that [benefit].
+ 
+## Product Backlog
+ 
+| # | User story | Acceptance criteria | Tasks | Priority |
+|---|------------|---------------------|-------|----------|
+| 1 | As a new vendor, I want to create an account with my name, trading spot, username, phone and 4-digit PIN, so that I can start using cold storage. | All fields are required.<br>The PIN is exactly 4 digits.<br>Duplicate usernames are rejected. | Build the sign-up form.<br>Add validation.<br>Save to the `profiles` table. | Must |
+| 2 | As a vendor, I want to log in with my username and PIN, so that I can see my storage. | Correct details open my dashboard.<br>Wrong details show an error. | Build the login form.<br>Check credentials.<br>Handle errors. | Must |
+| 3 | As a vendor, I want to see how many crates I have stored and in which unit, so that I always know what is in the cooler. | The home card shows the crate count, unit number and start date. | Design the storage card.<br>Query the active booking. | Must |
+| 4 | As a vendor, I want to see the hub closing time, so that I drop off my crates before 18:00. | A highlighted notice shows the closing time on the dashboard. | Add a closing time to the hub data.<br>Build the banner. | Should |
+| 5 | As a vendor, I want to access a QR code linked to my storage booking, so that the facility manager can identify my booking and direct me to my assigned storage unit. | A unique QR code is generated for a confirmed storage booking.<br>When the facility manager scans it, the system displays the booking details and assigned storage unit. | Generate a unique QR code linked to the booking.<br>Display the QR code on the vendor's dashboard.<br>Enable the facility manager to scan the QR code and retrieve the booking details. | Must |
+| 6 | As a vendor, I want to modify my storage booking, so that I only pay for the space I need. | I can change my crate count and confirm the change. | Build the modify form.<br>Update the booking. | Should |
+| 7 | As a vendor, I want to book transport assistance (a facility Bakkie), so that I can collect my stock from the supplier. | I can pick a date, time and location and get a confirmation. | Build the request form.<br>Save the request.<br>Show its status. | Should |
+| 8 | As a vendor, I want to choose to pay for my storage fortnightly or monthly, so that I can match my payments to when I earn money. | I can select fortnightly or monthly when booking and change it later.<br>The amount due and the next due date are shown before I confirm. | Add a payment frequency option to the booking form.<br>Calculate the amount and next due date.<br>Save the choice to the booking. | Should |
+ 
+## Screenshots
+ 
+<p>
+  <img src="images/image1.png" alt="SPS Coolers screenshot 1" width="180" />
+  <img src="images/image2.png" alt="SPS Coolers screenshot 2" width="180" />
+  <img src="images/image3.png" alt="SPS Coolers screenshot 3" width="180" />
+  <img src="images/image4.png" alt="SPS Coolers screenshot 4" width="180" />
+</p>
+<p>
+  <img src="images/image5.png" alt="SPS Coolers screenshot 5" width="240" />
+  <img src="images/image6.png" alt="SPS Coolers screenshot 6" width="240" />
+</p>
+## Reflection
+ 
+**Situation:** SPS Coolers is a smart cold storage application designed to help street vendors manage their storage bookings and access the facility.
+ 
+**Task:** My responsibility was to develop user stories and break them down into manageable tasks that the team could use for planning and development.
+ 
+**Action:** I wrote user stories from the vendor's perspective using the "As a user, I want, so that" format. I added acceptance criteria to define how each feature should work and applied MoSCoW prioritisation to distinguish essential features from additional ones. I then broke the user stories into smaller, manageable tasks.
+ 
+**Result:** This process helped organise the required features, clarify what each story needed to achieve, and support the creation of the Product Backlog and Sprint 1 backlog. I learned the importance of prioritising requirements and defining clear acceptance criteria before development begins.
  
