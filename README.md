@@ -55,114 +55,176 @@ Cape Peninsula University of Technology:
 ## Mock Interview Video
 <video src="./mock interview.mp4" controls width="600"></video>
 
-# SPS Fruit & Vegetable Coolers: Agile Team Charter
- 
-## 1. Team Purpose
- 
-SPS Fruit & Vegetable Coolers provides secure, refrigerated overnight storage and transport assistance for street vendors in the Cape Town CBD. Our purpose is to reduce produce spoilage, physical strain and stress for vendors who have no safe storage option.
- 
-**Team mission:** To validate and deliver a simple, affordable cold storage service that protects vendor income.
- 
-**Current goal:** Validate demand through the MVP flyer campaign. Success is defined as 15 to 20 of 50 vendors approached signing up with their contact details.
- 
-## 2. Team Members and Roles
- 
-- **Sesona Ntshatsha (Team Leader and Designer):** Facilitates meetings, keeps the backlog prioritized, removes blockers and leads design of flyers and branding.
-- **Alakhe Sbusiso Mxakato (Researcher and Presenter):** Gathers vendor feedback, validates assumptions with data and leads presentations.
-- **Noxolo Portia Ngubo (Writer, Editor and Presenter):** Produces and quality-checks written work and supports presentations.
-## 3. Core Values
- 
-- **Respect:** We listen to every opinion and value each member's contribution.
-- **Accountability:** We do what we commit to and communicate early if we cannot.
-- **Transparency:** We share progress, problems and mistakes openly.
-- **Customer focus:** Every decision is tested against the needs of the street vendor.
-- **Continuous improvement:** We reflect regularly and adapt how we work.
-## 4. Working Agreements
- 
-**Ways of working**
- 
-- We work in one-week sprints with a shared product backlog and a visible task board (To Do, In Progress, Done).
-- A short stand-up is held three times a week, either in person or on WhatsApp. Each member states what was done, what is planned and any blockers.
-- Sprint planning takes place at the start of each sprint and a sprint review and retrospective at the end.
-**Communication**
- 
-- The team WhatsApp group is the main channel for daily communication, and messages are answered within 24 hours.
-- Shared documents are stored in one common folder with clear version names.
-**Decision making**
- 
-- Decisions are made by consensus. If consensus cannot be reached, the team votes and the majority decision stands.
-- Customer feedback from vendors takes priority over personal preference.
-**Definition of Done**
- 
-- A task is complete only when it has been reviewed by at least one other member, meets the assignment or business requirement, and is uploaded to the shared folder.
-**Conflict resolution**
- 
-- Issues are raised directly and respectfully with the person concerned first.
-- If unresolved, the issue is discussed with the whole team at the next meeting.
-- If it remains unresolved, the matter is referred to the lecturer for guidance.
-## 5. Boundaries and Constraints
- 
-- Work stays within the agreed target market: Cape Town CBD fruit and vegetable vendors without their own vehicle.
-- Spending must stay within the estimated startup budget of R70,500, and no commitments are made without team approval.
-- All work must be original, properly referenced and in line with university academic integrity rules.
-- Vendor information collected during research is kept confidential and used only for the project.
-- Members may not take on work that exceeds their capacity without informing the team.
-## 6. Risks and Team Response
- 
-- **Market risk:** Vendors may not switch. We respond by testing demand early with the MVP.
-- **Operational risk:** Delays or equipment failure may reduce trust. We respond by planning ahead and keeping backup options.
-- **Team risk:** Missed deadlines or unequal workload. We respond by raising concerns early and reviewing workload at each retrospective.
-## 7. Review of the Charter
- 
-The charter will be reviewed at every sprint retrospective. Changes are made only with the agreement of all members.
- 
-## 8. Team Agreement
- 
-By signing below, each member agrees to uphold this charter.
- 
-- Sesona Ntshatsha: ____S.Ntshatsha______ Date: _26 October 2026_________
-- Alakhe Sbusiso Mxakato: _____A.S.Mxakato_____ Date: ____26 October 2026______
-- Noxolo Portia Ngubo: ____N.P.Ngubo______ Date: __26 October 2026________
 
- # User Stories and Tasks: SPS Coolers
  
-**Format:** As a [user], I want [feature], so that [benefit].
+# SPS Coolers: Agile Digital Portfolio
  
-## Product Backlog
+Agile artefacts for the SPS Coolers fruit-and-vegetable cold storage platform, built by a team of three between 13 and 27 September 2026.
  
-| # | User story | Acceptance criteria | Tasks | Priority |
-|---|------------|---------------------|-------|----------|
-| 1 | As a new vendor, I want to create an account with my name, trading spot, username, phone and 4-digit PIN, so that I can start using cold storage. | All fields are required.<br>The PIN is exactly 4 digits.<br>Duplicate usernames are rejected. | Build the sign-up form.<br>Add validation.<br>Save to the `profiles` table. | Must |
-| 2 | As a vendor, I want to log in with my username and PIN, so that I can see my storage. | Correct details open my dashboard.<br>Wrong details show an error. | Build the login form.<br>Check credentials.<br>Handle errors. | Must |
-| 3 | As a vendor, I want to see how many crates I have stored and in which unit, so that I always know what is in the cooler. | The home card shows the crate count, unit number and start date. | Design the storage card.<br>Query the active booking. | Must |
-| 4 | As a vendor, I want to see the hub closing time, so that I drop off my crates before 18:00. | A highlighted notice shows the closing time on the dashboard. | Add a closing time to the hub data.<br>Build the banner. | Should |
-| 5 | As a vendor, I want to access a QR code linked to my storage booking, so that the facility manager can identify my booking and direct me to my assigned storage unit. | A unique QR code is generated for a confirmed storage booking.<br>When the facility manager scans it, the system displays the booking details and assigned storage unit. | Generate a unique QR code linked to the booking.<br>Display the QR code on the vendor's dashboard.<br>Enable the facility manager to scan the QR code and retrieve the booking details. | Must |
-| 6 | As a vendor, I want to modify my storage booking, so that I only pay for the space I need. | I can change my crate count and confirm the change. | Build the modify form.<br>Update the booking. | Should |
-| 7 | As a vendor, I want to book transport assistance (a facility Bakkie), so that I can collect my stock from the supplier. | I can pick a date, time and location and get a confirmation. | Build the request form.<br>Save the request.<br>Show its status. | Should |
-| 8 | As a vendor, I want to choose to pay for my storage fortnightly or monthly, so that I can match my payments to when I earn money. | I can select fortnightly or monthly when booking and change it later.<br>The amount due and the next due date are shown before I confirm. | Add a payment frequency option to the booking form.<br>Calculate the amount and next due date.<br>Save the choice to the booking. | Should |
+---
  
-## Screenshots
+## 1. Agile Team Charter
  
+### Evidence
+ 
+**Project:** SPS Coolers, a cold storage and bakkie transport booking platform for Cape Town street vendors.
+**Team:** 3 members
+**Duration:** 13–27 September 2026 (two one-week sprints)
+ 
+| Member | Role | Key responsibilities |
+|--------|------|----------------------|
+| Noxolo Portia Ngubo | Team Lead & Backend Developer | Database design (Supabase), connecting the app to the database, deployment |
+| Alakhe Sbusiso Mxakato | Frontend Developer | UI/UX design, vendor & admin dashboard screens |
+| Sesona Ntshatsha | QA & Documentation Lead | Testing, GitHub portfolio, Agile logbook, documentation |
+ 
+**Purpose:** Build a working platform that lets street vendors reserve cold storage crates, request transport, and pay and track everything online, while giving SPS Coolers' admin staff full visibility and control.
+ 
+**Core values**
+ 
+- **Accountability:** each member owns their tasks and reports progress honestly.
+- **Communication:** daily check-ins, no silent blockers.
+- **Quality:** working, tested code over rushed features.
+- **Respect:** every voice is heard in planning and retrospectives.
+**Working agreements**
+ 
+- Stand-ups every weekday evening via WhatsApp (15 minutes): what was done, what's next, any blockers.
+- All code is pushed to GitHub on feature branches. At least one teammate reviews a pull request before it merges to `main`.
+- Tasks are tracked on a shared Trello board.
+- Definition of Done: the feature works end-to-end, is pushed to GitHub, and is demoed to the team before being marked complete.
+- Disagreements are resolved by discussion in the next stand-up. If unresolved, the Team Lead makes the final call.
+  
+### Reflection
+ 
+Agreeing on a charter before writing any code gave the team a shared reference point once the work got busy. The biggest early tension was around working hours, balancing this project with other CPUT deadlines. The daily WhatsApp check-in resolved it by making it obvious early when someone was falling behind, rather than finding out at the end of the sprint. The pull-request review rule slowed the team down in week one but caught several bugs before they reached `main`, which made it worth keeping for week two. In hindsight, writing the Definition of Done explicitly made it much easier to agree, as a team, that a feature was actually finished rather than "mostly working."
+ 
+---
+ 
+## 2. User Stories and Tasks
+ 
+### Evidence
+ 
+| User story | Priority | Tasks | Status |
+|-----------|----------|-------|--------|
+| As a street vendor, I want to create an account, so that I can access the booking platform. | High | Design signup form; validate 4-digit PIN; validate unique username; save profile to Supabase | Done |
+| As a street vendor, I want to reserve crate storage and choose a plan, so that I can store produce affordably. | High | Build crate stepper UI; define fortnightly/monthly pricing; calculate totals from the chosen plan | Done |
+| As a street vendor, I want a QR code after paying, so that I can show it to the facility manager at the hub and be led to my storage unit. | High | Generate unique QR code linked to the booking; display it after payment is made; facility manager scans it to see the booking and assigned unit | Done |
+| As a street vendor, I want to request bakkie transport, so that my produce can be collected. | Medium | Build transport request form; set flat CBD fee; save request to database | Done |
+| As a street vendor, I want to view my payment history, so that I can track what I've spent. | Medium | Build payments list view; link payments to bookings/transport | Done |
+| As a street vendor, I want to send an enquiry, so that I can get help from SPS Coolers. | Low | Build message form; save enquiry; show admin reply when sent | Done |
+| As an admin, I want to view all bookings, so that I can manage storage units. | High | Build admin bookings list; add "mark completed" action | Done |
+| As an admin, I want to approve or reject transport requests, so that I can manage logistics. | Medium | Build admin transport list; add approve/reject actions | Done |
+| As an admin, I want to reply to vendor enquiries, so that I can provide support. | Low | Build admin enquiries list; add reply form | Done |
+| As an admin, I want to see booking and revenue stats, so that I can track business performance. | Medium | Build overview dashboard; calculate totals from bookings/payments | Done |
 
-<img width="424" height="641" alt="Screenshot 2026-10-27 024942" src="https://github.com/user-attachments/assets/c117d5eb-173b-43eb-be84-86b29148f8ea" />
-<img width="432" height="641" alt="Screenshot 2026-10-27 025025" src="https://github.com/user-attachments/assets/954e08f5-bf46-4eb3-a834-253d1d3ae910" />
-<img width="426" height="645" alt="Screenshot 2026-10-27 025046" src="https://github.com/user-attachments/assets/7f23058a-9e17-4aa8-b92f-787052ecea15" />
-<img width="432" height="638" alt="Screenshot 2026-10-27 025107" src="https://github.com/user-attachments/assets/5996e3fe-8df8-4410-951d-a97040752dcf" />
-<img width="435" height="594" alt="Screenshot 2026-10-27 034427" src="https://github.com/user-attachments/assets/8cfc723c-a922-4e57-b642-26e02c236f1a" />
-<img width="426" height="641" alt="Screenshot 2026-10-27 034901" src="https://github.com/user-attachments/assets/c8da0203-7145-414d-aef0-50b7f66c7f63" />
+Screenshots:
+<img width="424" height="641" alt="Screenshot 2026-10-27 024942" src="https://github.com/user-attachments/assets/937f7af3-b20a-4dad-aaf7-bfa6f8bfb7a7" />
+<img width="432" height="641" alt="Screenshot 2026-10-27 025025" src="https://github.com/user-attachments/assets/9ceb2677-0905-46ea-acf7-49e380ae2993" />
+<img width="432" height="638" alt="Screenshot 2026-10-27 025107" src="https://github.com/user-attachments/assets/1a669e71-5bee-49c2-bf71-418b6ba83f3e" />
+<img width="426" height="645" alt="Screenshot 2026-10-27 025046" src="https://github.com/user-attachments/assets/33efc73c-7a5a-411b-9cd3-fe62196cd158" />
+<img width="435" height="594" alt="Screenshot 2026-10-27 034427" src="https://github.com/user-attachments/assets/8b4bf17c-2850-4801-b58e-8f07d2fef892" />
+<img width="426" height="641" alt="Screenshot 2026-10-27 034901" src="https://github.com/user-attachments/assets/3c2c22d8-86f0-4695-8237-d8352e6a4a06" />
+<img width="545" height="348" alt="Screenshot 2026-10-28 155853" src="https://github.com/user-attachments/assets/a808f013-04b1-4023-9850-0e98713be65a" />
+<img width="642" height="348" alt="Screenshot 2026-10-28 155924" src="https://github.com/user-attachments/assets/4c3e5e26-9a9c-4d29-9c4d-a1b45dec87d6" />
 
 
 
 
+### Reflection
+ 
+Writing stories in "As a … I want … so that …" form, before any task list, kept the team focused on why a feature mattered to a vendor or admin rather than jumping straight into code. Breaking each story into 3–4 concrete tasks made daily stand-ups far more useful. "I'm building the signup form" is something the rest of the team can actually check progress against, unlike "I'm working on accounts." The hardest story to size correctly was reserving storage, because the pricing logic and the crate-selection UI turned out to need separate tasks that weren't obvious until the team started building. It was a reminder that task breakdowns are a living part of the backlog, not a one-time exercise.
+ 
+---
+ 
+## 3. Product Backlog
+ 
+### Evidence
+ 
+| Backlog item | Priority | Status |
+|--------------|----------|--------|
+| Vendor registration & login | High | Done |
+| Admin registration & login | High | Done |
+| Reserve storage: choose crates & plan | High | Done |
+| Tiered pricing (fortnightly / monthly) | High | Done |
+| Payment and QR code generation after payment | High | Done |
+| QR code booking verification at the hub | Medium | Done |
+| Bakkie transport request | Medium | Done |
+| Admin approve/reject transport requests | Medium | Done |
+| Vendor payment history | Medium | Done |
+| Admin payments & revenue overview | Medium | Done |
+| Vendor enquiries / help messages | Low | Done |
+| Admin reply to enquiries | Low | Done |
+| Admin booking management (mark completed) | Medium | Done |
+| Supabase database and backend | High | Done |
+| Deployment (Netlify) | High | Done |
+| Real payment gateway integration | Low | Not started (future work) |
+
+<img width="343" height="311" alt="Screenshot 2026-10-28 155032" src="https://github.com/user-attachments/assets/f619e4b3-a5c2-430a-8c99-97d6cb3796e7" />
+<img width="426" height="629" alt="Screenshot 2026-10-28 160635" src="https://github.com/user-attachments/assets/0d4c9aa4-2140-4148-b013-8f6c1cd09624" />
 
 
-## Reflection
  
-**Situation:** SPS Coolers is a smart cold storage application designed to help street vendors manage their storage bookings and access the facility.
+### Reflection
  
-**Task:** My responsibility was to develop user stories and break them down into manageable tasks that the team could use for planning and development.
+Prioritising the backlog forced the team to agree on what actually made SPS Coolers usable versus what was "nice to have." Vendor accounts, storage booking, pricing and payment were ranked highest because without them there was no product to demo at all. Enquiries and admin replies were ranked lowest because the platform is still usable without them. The item the team got wrong at first was the backend, which was treated as medium priority in the original plan, but once the front-end prototype was working it became clear a real database was essential for admin and vendor data to actually stay in sync, so it was re-prioritised to High partway through. A real payment gateway was deliberately left for future work, since simulating payment let the team focus the two-week window on the core booking and logistics workflow.
  
-**Action:** I wrote user stories from the vendor's perspective using the "As a user, I want, so that" format. I added acceptance criteria to define how each feature should work and applied MoSCoW prioritisation to distinguish essential features from additional ones. I then broke the user stories into smaller, manageable tasks.
+---
  
-**Result:** This process helped organise the required features, clarify what each story needed to achieve, and support the creation of the Product Backlog and Sprint 1 backlog. I learned the importance of prioritising requirements and defining clear acceptance criteria before development begins.
+## 4. Sprint Backlog
+ 
+### Evidence
+ 
+#### Sprint 1: 13 to 19 September
+ 
+**Goal:** Deliver a working front-end prototype demonstrating the full vendor and admin booking flow.
+ 
+| Backlog item | Task | Assignee | Status |
+|------|------|----------|--------|
+| Vendor & admin registration/login | Build signup/login screens & role toggle | Frontend Developer | Done |
+| Reserve storage and pricing | Build crate stepper, plan picker & pricing | Backend/Frontend (pair) | Done |
+| Payment and QR code | Simulate payment; generate QR code after payment | Backend Developer | Done |
+| Admin booking management | Admin bookings overview screen | Frontend Developer | Done |
+| n/a | Internal demo & Sprint 1 review | Whole team | Done |
+ 
+#### Sprint 2: 20 to 27 September
+ 
+**Goal:** Replace the prototype's temporary data with a real backend and database, and deploy the platform.
+ 
+| Backlog item | Task | Assignee | Status |
+|------|------|----------|--------|
+| Backend and database | Design Supabase database schema; connect the app to Supabase (accounts, bookings, transport, payments, enquiries) | Backend Developer | Done |
+| Bakkie transport requests | Transport request form + admin approve/reject | Frontend Developer | Done |
+| Payment history and revenue overview | Payment history (vendor & admin) views | Frontend Developer | Done |
+| Vendor enquiries and admin replies | Enquiries form + admin reply | QA/Documentation Lead | Done |
+| n/a | End-to-end testing of all flows | QA/Documentation Lead | Done |
+| Deployment | Deploy to Netlify | Backend Developer | Done |
+| n/a | GitHub portfolio & documentation | QA/Documentation Lead | Done |
+ 
+### Reflection
+ 
+Splitting the two weeks into two clear sprints made the scope manageable. Sprint 1 proved the concept worked end-to-end before any time was spent on a real database, and Sprint 2 could then focus entirely on making that working concept production-ready. The team underestimated how long the backend migration would take relative to the frontend work in Sprint 1. Connecting accounts, database queries and the existing UI took most of the first three days of Sprint 2, which pushed enquiries and admin replies later in the sprint than planned. For a longer project the team agreed it would plan the backend and database work in Sprint 1 alongside the UI, rather than treating the UI as a separate first phase, since nearly every vendor-facing feature ultimately depended on it.
+ 
+---
+ 
+## 5. Agile Logbook
+ 
+### Evidence
+ 
+| Date | Activity | Decisions / notes |
+|------|----------|-------------------|
+| 13 Sep | Kick-off meeting | Agreed on idea (SPS Coolers), team charter, roles and initial user stories |
+| 14 Sep | Repo & board setup | Created GitHub repo, Trello board, drafted product backlog |
+| 15 Sep | UI design | Chose dark-green colour scheme matching cold-storage branding; started vendor dashboard |
+| 16 Sep | Pricing logic | Agreed on fortnight and month tiers for Cape Town CBD rates |
+| 17 Sep | QR code flow | Built QR code generation after payment and the QR screen vendors show to the facility manager; admin dashboard started |
+| 19 Sep | Sprint 1 review | Demoed working prototype internally; planned Sprint 2 around the backend |
+| 20 Sep | Database design | Designed the Supabase database schema (vendor profiles, bookings, transport requests, payments, enquiries) |
+| 21 Sep | Backend build | Connected the app to Supabase for accounts and bookings |
+| 22–23 Sep | Integration | Connected frontend to the Supabase database; fixed data-format bugs found during testing |
+| 24 Sep | Documentation | Wrote README and setup instructions for the GitHub repo |
+| 26 Sep | Deployment planning | Chose Netlify to deploy the system |
+| 27 Sep | Deployment & retro | Deployed to Netlify; final testing; Sprint 2 retrospective |
+ 
+### Reflection
+ 
+Keeping the logbook up to date, even briefly, turned out to be more useful after the fact than during the sprint. Reading back over it, the pattern is clear: Sprint 1 moved quickly because the scope was entirely within the team's existing skills, while Sprint 2 slowed down whenever a new tool was involved for the first time (the database schema, connecting accounts to the database, and later the deployment platform). Logging blockers honestly, rather than only logging finished work, would have made that pattern visible earlier and might have changed how the team split Sprint 2's time. The logbook also made the final retrospective easier, since the team could point to specific dates and decisions instead of relying on memory of a fairly packed two weeks.
  
